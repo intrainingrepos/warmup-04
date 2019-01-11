@@ -1,0 +1,26 @@
+{
+  "name": "warmup-04",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "eslint": "^5.12.0",
+    "jest": "^23.6.0",
+    "node": "^11.6.0",
+    "superagent": "^4.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niesssiobhan/warmup-04.git"
+  },
+  "author": "siobhan niess",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/niesssiobhan/warmup-04/issues"
+  },
+  "homepage": "https://github.com/niesssiobhan/warmup-04#readme"
+}
