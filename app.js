@@ -6,9 +6,7 @@ function fetchPeopleWithPromises() {
   let url = "https://swapi.co/api/people/";
 
   superagent.get(url)
-    .then( (starWarsResults) => {s
 
-      starWarsResults.body.results[0].url
       let urlArray = [];
       for(let i = 0; i < starWarsResults.body.results.length; i++){
         urlArray.push(starWarsResults.body.results[i].url);
@@ -23,6 +21,7 @@ function fetchPeopleWithPromises() {
         for(let i = 0; i < result.length; i++){
           console.log(result[i].body.name);
         }
+
       })
       .catch((err) => {
         throw new Error(err);
