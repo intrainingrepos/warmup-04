@@ -18,6 +18,7 @@ function fetchPeopleWithPromises() {
         urlArray.push(starWarsResults.body.results[i].url);
       }
 
+
       let promiseArray = [];
       for(let i = 0; i < urlArray.length; i++){
         promiseArray.push(superagent.get(urlArray[i]));
