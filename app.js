@@ -15,6 +15,7 @@ function fetchPeopleWithPromises() {
       for(let i = 0; i < starWarsResults.body.results.length; i++){
         urlArray.push(starWarsResults.body.results[i].url);
       }
+
       // console.log(urlArray);
 
       let promiseArray = [];
@@ -26,7 +27,7 @@ function fetchPeopleWithPromises() {
         for(let i = 0; i < result.length; i++){
           console.log(result[i].body.name);
         }
-        // console.log(result);
+
       })
       .catch((err) => {
         throw new Error(err);

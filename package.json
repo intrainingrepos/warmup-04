@@ -2,6 +2,11 @@
   "name": "warmup-04",
   "version": "1.0.0",
   "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "superagent": "^4.1.0"
+  },
+  "devDependencies": {},
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
